@@ -57,6 +57,7 @@ p {
   font-size: 16px;
 }
 
+
 .button_submit {
   border: none;
   font-family: inherit;
@@ -203,12 +204,14 @@ main.index {
 }
 
 main.form 
-{ display: flex;
+{ align-items: center;
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 main.contact {
+  align-items: center;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -262,25 +265,45 @@ main.contact {
 
 
 
-/***** CONTACTFORM TAGS   *****/
+/***************  SECTION   ***************/
 
-.contactform {
+section.contact {
+  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
   font-size: 1em;
   line-height: 2em;
   width: 100%;
   max-width: 500px;
-  padding: 2%;
-  background: var(--secondary-bg-color-light); }
+  padding: 1%;
+  margin: 20px;
+  border-radius: 9px;
+  background: var(--secondary-bg-color-light); 
+  border-bottom: 3px solid var(--darkborder);
 
-
-.form__span--modifier {
-  color: var(--span-modifier);
 }
 
-.contactform textarea {
+section.contact span {
+  color: var(--span-modifier-color)!important;
+}
+
+section.contact textarea {
   width: 100%;
 }
+
+section.contact2 {
+  border-top: 30px;
+  padding: 1%;
+  background: var(--secondary-bg-color-light); 
+  width: 100%;
+  max-width: 500px;
+  line-height: 3em;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--darkborder);
+}
+
+
+
 
 
 /***** TABLE TAGS   *****/
