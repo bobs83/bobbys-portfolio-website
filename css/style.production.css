@@ -135,6 +135,17 @@
        object-position: center;
     margin-right: 30px;
   }
+
+  img.socialmedia {
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    }
+  
   
   /***************  Header ***************/
   
@@ -189,9 +200,7 @@
       -o-transition:0.2s ease-in-out;
       transition:0.2s ease-in-out;
       color: #0d0033;
-      
-      
-      }
+       }
   
   .topnav-active {
       background-color:#DDDDDD; 
@@ -486,15 +495,6 @@
             margin-inline-end: 0px;
   }
   
-  .footer-img {
-    border-radius: 40%;
-    width: 40px;
-    height: 40px;
-    margin: 4px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    }
   
   
   /***** RESPONISVENESS   *****/

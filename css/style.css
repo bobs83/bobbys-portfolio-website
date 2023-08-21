@@ -139,6 +139,14 @@ img.profilepic {
   margin-right: 30px;
 }
 
+img.socialmedia {
+  border-radius: 40%;
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  align-items: center;
+  }
+
 /***************  Header ***************/
 
 
@@ -405,13 +413,7 @@ footer p {
   margin-inline-end: 0px;
 }
 
-.footer-img {
-  border-radius: 40%;
-  width: 40px;
-  height: 40px;
-  margin: 4px;
-  align-items: center;
-  }
+
 
 
 /***** RESPONISVENESS   *****/
