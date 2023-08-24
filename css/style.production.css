@@ -466,6 +466,30 @@ table.minimal thead th {
   }
 }
 
+@-webkit-keyframes sun-ring {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 .window {
   -webkit-animation: 4s color-change-window infinite alternate ease-in-out;
   animation: 4s color-change-window infinite alternate ease-in-out;
@@ -474,6 +498,14 @@ table.minimal thead th {
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
   animation: 4s color-change infinite alternate linear;
+}
+
+.sun-ring {
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: 10s spin infinite ease-in;
+  animation: 10s spin infinite ease-in;
 }
 
 .cloud-front {
