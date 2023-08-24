@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans%7CRoboto+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.production.css">
         <link rel="shortcut icon" href="./img/favicon_io/favicon32x32.png" type="image/x-icon">
     </head>
 
@@ -41,25 +41,25 @@
                             </div>
                             <div>
                                 <label>First name:<span class="form__span--modifier">*</span></label><br>
-                                <input name="fname" value="" maxlength="100" tabindex="1" required="" placeholder="Enter first name" type="text">
+                                <input name="fname" value="" maxlength="100" tabindex="0" required="" placeholder="Enter first name" type="text">
                             </div>
                             <div>
                                 <label>Last name:<span>*</span></label><br>
-                                <input name="fname" value="" maxlength="100" tabindex="1" required="" placeholder="Enter last name" type="text">
+                                <input name="fname" value="" maxlength="100" tabindex="0" required="" placeholder="Enter last name" type="text">
                             </div>
                             <div>
                                 <label>Email:<span>*</span></label><br>
-                                <input name="email" spellcheck="false" value="" maxlength="100" tabindex="2" placeholder="Enter your email" required="" type="email">
+                                <input name="email" spellcheck="false" value="" maxlength="100" tabindex="0" placeholder="Enter your email" required="" type="email">
                             </div>
                             <div>
                                 <label>Phone:<span>*</span></label><br>
-                                <input name="phone" value="" maxlength="100" tabindex="2" placeholder="e.g +49 176 xxx xxx xx" required="" type="tel">
+                                <input name="phone" value="" maxlength="100" tabindex="0" placeholder="e.g +49 176 xxx xxx xx" required="" type="tel">
                             </div>
         
                             <div>
                                 <label>What time suits you best ?</label><br> 
-                                <select name="time" tabindex="4">    
-                                    <option value="Please select time" selected="selected">Please select</option>
+                                <select>
+                                    <option value="selected" selected>Please select</option>
                                     <option value="08:00-10:00">08:00 - 09:00</option>
                                     <option value="12:00-13:00">12:00 - 13:00</option>
                                     <option value="17:00-19:00">18:00 - 19:00</option>
@@ -67,7 +67,7 @@
                             </div>
                             <div>
                                 <label>Want to tell me something?</label>
-                                <textarea name="extra details" spellcheck="true" rows="5" cols="50" tabindex="3" placeholder="Write your extra details here" required=""></textarea>
+                                <textarea name="extra details" spellcheck="true" rows="5" cols="50" tabindex="0" placeholder="Write your extra details here" required=""></textarea>
                             </div>
                             <div>
                                 <button class="button_submit" type="submit">Submit</button>
@@ -81,10 +81,10 @@
                         <h2> or message me ! </h2> 
                     </div>
                     <div>
-                         <a href="skype:bobs83?userinfo" alt="Send Bobby a instant message" class="button_skype">Skype Message</a>
+                         <a href="skype:bobs83?userinfo" class="button_skype">Skype Message</a>
                     </div>
                     <div>
-                         <a href="mailto:bobby@berlin.de" alt="Click here to open your local mail app">Send an e-mail</a> <br>
+                         <a href="mailto:bobby@berlin.de">Send an e-mail</a> <br>
                     </div>
                 </section>
         </main>
